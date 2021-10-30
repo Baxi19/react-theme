@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
     >
       <header>
         <nav>
-          <p>React Hooks Example</p>
+          <p>React Hooks</p>
           <ThemedButton />
         </nav>
       </header>
