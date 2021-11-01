@@ -3,16 +3,13 @@ import { useState } from 'react';
 import Layout from './components/Layout';
 import ThemeContext, { themes } from './theme/themeContex';
 
-function App() {
+const App = () => {
   const [theme, setTheme] = useState(themes.light);
-
   const handleChangeTheme = () => {
     setTheme(() => {
       return theme === themes.dark ? themes.light : themes.dark;
     });
   };
-
-
   return (
     <ThemeContext.Provider value={{ theme, handleChangeTheme }}>
       <Layout>
@@ -25,3 +22,4 @@ function App() {
 }
 
 export default App;
+

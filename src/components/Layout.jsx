@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import ThemedButton from './ThemeButton';
 import ThemeContext from '../theme/themeContex';
 
-function Layout({ children }) {
+const Layout = ({ children }) => {
   const { theme } = useContext(ThemeContext);
   return (
     <div
@@ -15,7 +15,7 @@ function Layout({ children }) {
           <ThemedButton />
         </nav>
       </header>
-      {children}
+        {children}
       <footer>
         <p>Use Context Hook</p>
       </footer>
