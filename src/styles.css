@@ -22,7 +22,7 @@ body {
 header {
   display: flex;
   justify-content: space-around;
-  border-bottom: 1px solid paleturquoise;
+  border-bottom: 1px solid rgba(11, 4, 112, 0.733);
 }
 
 header nav {
@@ -42,5 +42,5 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: paleturquoise;
+  background: rgba(11, 4, 112, 0.733);
 }

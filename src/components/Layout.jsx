@@ -11,13 +11,13 @@ const Layout = ({ children }) => {
     >
       <header>
         <nav>
-          <p>Home</p>
+          <p>React Hooks</p>
           <ThemedButton />
         </nav>
       </header>
         {children}
       <footer>
-        <p>Use Context Hook</p>
+        <p>Use Context Example</p>
       </footer>
     </div>
   );
