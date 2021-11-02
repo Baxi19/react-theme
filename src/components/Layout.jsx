@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
       </header>
         {children}
       <footer>
-        <p>Use Context Example</p>
+        <p>Copyright</p>
       </footer>
     </div>
   );
